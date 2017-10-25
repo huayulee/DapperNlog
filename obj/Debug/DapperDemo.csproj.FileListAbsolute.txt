@@ -1,0 +1,13 @@
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\NLog.config
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\DapperDemo.exe.config
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\DapperDemo.exe
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\DapperDemo.pdb
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\Dapper.Contrib.dll
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\Dapper.dll
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\NLog.dll
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\Dapper.xml
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\bin\Debug\NLog.xml
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csprojResolveAssemblyReference.cache
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csproj.CoreCompileInputs.cache
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\obj\Debug\DapperDemo.exe
+c:\users\abc19\source\repos\DapperDemo\DapperDemo\obj\Debug\DapperDemo.pdb
