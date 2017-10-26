@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace DapperDemo.Repository
 {
@@ -20,6 +21,19 @@ namespace DapperDemo.Repository
         public IEnumerable<Student> GetAllStudents()
         {
             return db.Get<Student>("SELECT * FROM Student WHERE Age > @Age", new { Age = 12 });
+        }
+
+        public bool Insert()
+        {
+            using(var tran = new TransactionScope())
+            {
+                db.Execute("INSERT INTO Student(Name,Age) VALUES('Test',33);");
+                throw new ApplicationException("刻意觸發錯誤!");
+                db.Execute("INSERT INTO Student(Name,Age) VALUES('Test',33);");
+                tran.Complete();
+            }
+
+            return true;
         }
     }
 }

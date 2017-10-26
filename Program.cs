@@ -16,7 +16,7 @@ namespace DapperDemo
             {
                 Console.WriteLine($"{item.Name}  {item.Age}");
             }
-
+            sr.Insert();
             LogUtil.Log.Info("ahahahah");
         }
     }
